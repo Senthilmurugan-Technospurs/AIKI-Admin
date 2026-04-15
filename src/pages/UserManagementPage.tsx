@@ -1,8 +1,5 @@
 import {
   CreditCard,
-  Eye,
-  MoreHorizontal,
-  Pencil,
   Plus,
   Search,
   User,
