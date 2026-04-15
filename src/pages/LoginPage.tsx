@@ -80,7 +80,7 @@ export function LoginPage() {
   }, [step])
 
   return (
-    <div className="relative min-h-screen overflow-hidden bg-slate-900 bg-[url('/Images/BG/bg.png')] bg-no-repeat bg-size-[100%_100%] px-4">
+    <div className="relative min-h-screen overflow-hidden bg-slate-900 bg-[url('/Images/BG/bg.jpg')] bg-no-repeat bg-size-[100%_100%] px-4">
 
       {/* Back button on background (OTP only) */}
       {step === 'otp' && (
