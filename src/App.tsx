@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom'
+import { Navigate, Route, Routes } from 'react-router-dom'
 import { AppShell } from './components/layout/AppShell'
 import { UserManagementPage } from './pages/UserManagementPage'
 import { DashboardPage } from './pages/DashboardPage'
@@ -11,6 +11,7 @@ import { UnderConstructionPage } from './pages/UnderConstructionPage'
 function App() {
   return (
     <Routes>
+      <Route path="/" element={<Navigate to="/login" replace />} />
       <Route path="/login" element={<LoginPage />} />
       <Route
         path="/*"
